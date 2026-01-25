@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
-<!-- $Author$ -->
-<!-- EN-Revision: 01c763109c30a13b87358be1eb30f58608c9747e Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 48ce43fe79fa0c9f31f187ea8ec995b4cb13037e Maintainer: simionea Status: ready -->
 
 <chapter xml:id="v8js.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.setup;
@@ -9,18 +7,13 @@
  <section xml:id="v8js.requirements">
   &reftitle.required;
   <para>
-   PHP 5.3.3+, biblioteca și antetele V8 instalate în locațiile corespunzătoare.
+   PHP, biblioteca și antetele V8 instalate în locațiile corespunzătoare.
   </para>
  </section>
 
   &reference.v8js.configure;
 
   &reference.v8js.ini;
-
- <section xml:id="v8js.resources">
-  &reftitle.resources;
-  &no.resource;
- </section>
 
 </chapter>
 

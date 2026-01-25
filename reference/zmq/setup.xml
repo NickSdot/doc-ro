@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- $Revision$ -->
-<!-- $Author$ -->
-<!-- EN-Revision: ab56145968b47219d62cf76870c9b5698ac8f956 Maintainer: simionea Status: ready -->
+<!-- EN-Revision: 9a5b92a30888d6423db112f07a9b344cf6fc4891 Maintainer: simionea Status: ready -->
 
 <chapter xml:id="zmq.setup" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
  &reftitle.setup;
@@ -12,7 +10,18 @@
    Extensia ZMQ necesită 0MQ de versiunea 2.0.7 sau ulterioară. 0MQ poate fi
    obținut la adresa <link xlink:href="&url.zeromq;area:download">&url.zeromq;area:download</link>.
   </para>
-  &reference.zmq.configure;
+ </section>
+
+ <section xml:id="zmq.installation" xmlns="http://docbook.org/ns/docbook" xmlns:xlink="http://www.w3.org/1999/xlink">
+  &reftitle.install;
+
+  <para>
+   &pecl.info.dead;
+   <link xlink:href="&url.pecl.package;zmq">&url.pecl.package;zmq</link>
+  </para>
+  <para>
+   &pecl.windows.download.avail;
+  </para>
  </section>
 </chapter>
 
