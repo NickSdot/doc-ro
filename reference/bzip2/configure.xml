@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- $Revision$ -->
 <!-- $Author$ -->
-<!-- EN-Revision: 96c9d88bad9a7d7d44bfb7f26c226df7ee9ddf26 Maintainer: simionea Status: ready -->
-
-<section xml:id="bzip2.installation" xmlns="http://docbook.org/ns/docbook">
+<!-- EN-Revision: 5fdeb11b137c94a6d25cbe98a2e14c00366197cf Maintainer: simionea Status: ready -->
+<section xmlns="http://docbook.org/ns/docbook" xml:id="bzip2.installation">
  &reftitle.install;
- <para>
+ <simpara>
   Susținerea <acronym>Bzip2</acronym> în PHP nu este activată implicit. Trebuie
   să utilizați opțiunea de configurare
   <option role="configure">--with-bz2[=DIR]</option> la momentul compilării PHP
   pentru a activa susținerea bzip2.
- </para>
+ </simpara>
 </section>
-
 <!-- Keep this comment at the end of the file
 Local variables:
 mode: sgml
